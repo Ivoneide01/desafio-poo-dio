@@ -145,6 +145,15 @@ Se possível:<br>
 🐛 Encontrar e relatar issues<br>
 </p>
 
+<P>Melhorias feitas :
+Método criarCurso: Encapsula a criação de um curso com os detalhes fornecidos, evitando repetição de código.
+
+Método inscreverEProgredirDev: Este método recebe o nome do desenvolvedor, o bootcamp e o número de progressos a serem feitos. Ele cria um novo Dev, inscreve-o no bootcamp, exibe os conteúdos inscritos, faz o progresso especificado e depois mostra os conteúdos concluídos e o XP acumulado.
+
+Uso de Arrays.asList: Facilita a adição dos cursos e da mentoria ao bootcamp usando um método mais conciso.
+
+Essas mudanças tornam o código mais legível e evitam a repetição de código desnecessária, usando métodos auxiliares para as operações comuns.</P>
+
 
 
 ------------
